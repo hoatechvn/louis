@@ -32,4 +32,8 @@ class TaoComment extends Migration
     {
         Schema::drop('Comment');
     }
+     public function down1()
+    {
+        Schema::drop('Comment');
+    }
 }
